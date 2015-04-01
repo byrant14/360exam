@@ -13,5 +13,6 @@ def getIPinfo():
         if (nicName is not None) and (len(ip) !=0):
             ips[nicName.group()]=ip[0]
     return ips
+
 if __name__=="__main__":
     print getIPinfo()
